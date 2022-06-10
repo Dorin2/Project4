@@ -42,6 +42,10 @@ input {
   margin: 0;
 }
 
+button {
+  border: 0px;
+}
+
 .header_top {
   margin-top: 14px;
   margin-bottom: 14px;
@@ -255,7 +259,6 @@ h1.section_top-left-top {
   position: absolute;
   right: 77px;
   width: 632px;
-  height: 450px;
 }
 
 .modal_number {
@@ -304,6 +307,14 @@ h1.section_top-left-top {
       justify-content: space-around;
   font-weight: 400;
   color: #929292;
+}
+
+.extendet {
+  height: 450px;
+}
+
+.contracted {
+  height: 390px;
 }
 
 p.modal_line {
@@ -361,6 +372,7 @@ p.modal_line {
   font-weight: 600;
   font-size: 16px;
   color: #582D7F;
+  cursor: pointer;
 }
 
 .form-section_next {
@@ -371,6 +383,7 @@ p.modal_line {
   font-weight: 600;
   font-size: 16px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .form-section1 {
@@ -390,7 +403,7 @@ p.modal_line {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding-top: 42px;
-  padding-bottom: 35px;
+  padding-bottom: 24px;
 }
 
 .form-section2_input-bottom {
@@ -425,11 +438,25 @@ p.modal_line {
 .form-section3_input1 {
   width: 576px;
   height: 55px;
+  border: 1px solid #C4C4C4;
+  font-weight: 400;
+  font-size: 16px;
+  color: #979797;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 20px;
 }
 
 .form-section3_input2 {
   width: 260px;
   height: 55px;
+  border: 1px solid #C4C4C4;
+  font-weight: 400;
+  font-size: 16px;
+  color: #979797;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 20px;
 }
 
 .form-section3_span {
@@ -472,11 +499,5 @@ button.form_button-submit {
 .number-active {
   background-color: #582D7F;
   color: #fff;
-}
-
-.dorin {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 /*# sourceMappingURL=style1.css.map */
