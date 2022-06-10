@@ -361,9 +361,20 @@ p.modal_line {
 
 .form_button {
   text-align: center;
+  padding-top: 10px;
 }
 
-.form-section_back {
+.form-section1 {
+  width: 632px;
+  height: 120px;
+}
+
+.form-section2 {
+  width: 632px;
+  height: 120px;
+}
+
+.form-section2_back {
   width: 260px;
   height: 55px;
   background-color: #fff;
@@ -375,7 +386,7 @@ p.modal_line {
   cursor: pointer;
 }
 
-.form-section_next {
+.form-section2_next {
   width: 260px;
   height: 55px;
   background-color: #582D7F;
@@ -384,16 +395,6 @@ p.modal_line {
   font-size: 16px;
   border-radius: 10px;
   cursor: pointer;
-}
-
-.form-section1 {
-  width: 632px;
-  height: 120px;
-}
-
-.form-section2 {
-  width: 632px;
-  height: 120px;
 }
 
 .form-section2_input {
@@ -433,6 +434,29 @@ p.modal_line {
 .form-section3 {
   width: 632px;
   height: 120px;
+}
+
+.form-section3_back {
+  width: 260px;
+  height: 55px;
+  background-color: #fff;
+  border: 2px solid #582D7F;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #582D7F;
+  cursor: pointer;
+}
+
+.form-section3_next {
+  width: 260px;
+  height: 55px;
+  background-color: #582D7F;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .form-section3_input1 {
