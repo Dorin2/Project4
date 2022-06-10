@@ -309,6 +309,12 @@ h1.section_top-left-top {
   color: #929292;
 }
 
+.modal_line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .extendet {
   height: 450px;
 }
@@ -317,14 +323,30 @@ h1.section_top-left-top {
   height: 390px;
 }
 
-p.modal_line {
-  height: 1px;
-  width: 515px;
+p.modal_line1 {
+  height: 2px;
+  width: 266px;
   background-color: #929292;
   margin: 0;
   padding: 0;
   border: 0;
   margin-left: 55px;
+}
+
+p.modal_line2 {
+  height: 2px;
+  width: 266px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+p.line-active {
+  background-color: #582D7F;
+}
+
+p.line-disable {
+  background-color: #929292;
 }
 
 .form {
