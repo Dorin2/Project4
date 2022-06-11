@@ -461,6 +461,8 @@ p.line-disable {
 .form-section2_input-text {
   width: 106px;
   height: 34px;
+  display: none;
+  visibility: none;
 }
 
 .form-section2_buttons {
@@ -469,6 +471,37 @@ p.line-disable {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.form-section2_label1 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-section2_img {
+  width: 22px;
+  height: 30px;
+}
+
+.form-section2_label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+span.form-section2_label-span {
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 10px;
+  display: block;
 }
 
 .form-section3 {

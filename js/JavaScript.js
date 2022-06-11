@@ -96,4 +96,8 @@ button3Next.addEventListener('click',()=>{
 
 })
 
-
+function getImage(imagename){
+    var image = document.getElementById('display-image');
+    
+}
+getImage();
