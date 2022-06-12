@@ -96,8 +96,16 @@ button3Next.addEventListener('click',()=>{
 
 })
 
-function getImage(imagename){
-    var image = document.getElementById('display-image');
+function testFunction () {
+    let name = document.getElementById("select-file").value;
+    const span = document.getElementById("display-image");
+    name = name.replace(/.*[\/\\]/, '');
+    if(name.length > 0){
+        span.innerHTML = name;
+    } else {
+        span.innerHTML = 'Upload<br> file';
+    };
     
-}
-getImage();
+  };
+
+  
