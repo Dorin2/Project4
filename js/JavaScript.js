@@ -1,3 +1,4 @@
+"use strict";
 const button1 = document.querySelector('.form_button-submit'),
       form1 = document.querySelector('.form-section1'),
       form2 = document.querySelector('.form-section2'),
@@ -108,4 +109,19 @@ function testFunction () {
     
   };
 
-  
+  //Add cards Services using class
+class MenuCard{
+    constructor(src, alt, title, ul, request){
+        this.src = src;
+        this.alt = alt;
+        this.title = title;
+        this.ul = ul;
+        this.request = request;
+
+    }
+    render(){
+        const element = document.createElement('div');
+        
+    }
+
+}
