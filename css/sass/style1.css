@@ -598,4 +598,29 @@ button.form_button-submit {
   background-color: #582D7F;
   color: #fff;
 }
+
+.services {
+  margin-top: 200px;
+}
+
+.services_our-services {
+  font-weight: 400;
+  font-size: 48px;
+}
+
+.services_top-section {
+  margin-top: 55px;
+}
+
+.shadow {
+  -webkit-box-shadow: 1px 5px 5px 1px #b2afaf;
+          box-shadow: 1px 5px 5px 1px #b2afaf;
+  border-radius: 10px 10px 0px 0px;
+  background-color: #fff;
+}
+
+ul.services_ul li {
+  list-style-type: disclosure-closed;
+  list-style-position: inside;
+}
 /*# sourceMappingURL=style1.css.map */
