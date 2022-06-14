@@ -610,7 +610,7 @@ button.form_button-submit {
 }
 
 .services {
-  margin: 200px 0px 30px 0px;
+  margin: 120px 0px 30px 0px;
 }
 
 .services_our-services {
@@ -668,5 +668,43 @@ ul.services_ul li {
   font-weight: 300;
   font-size: 14px;
   padding-top: 5px;
+}
+
+.aditional-services_section {
+  margin: 70px 0px;
+  width: 100%;
+}
+
+.aditional-services_title {
+  font-weight: 400;
+  font-size: 48px;
+}
+
+.aditional-services_section-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 17%;
+  padding-top: 20px;
+  margin: 40px;
+}
+
+.aditional-services_subsection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aditional-services_subsection img {
+  margin-right: 20px;
 }
 /*# sourceMappingURL=style1.css.map */
