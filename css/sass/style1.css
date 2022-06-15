@@ -707,4 +707,15 @@ ul.services_ul li {
 .aditional-services_subsection img {
   margin-right: 20px;
 }
+
+.our-company {
+  height: 827px;
+  background-color: #fff;
+}
+
+.our-company_image {
+  background: url(/img/countries.png);
+  background-repeat: no-repeat;
+  background-position: 95% 100px;
+}
 /*# sourceMappingURL=style1.css.map */
