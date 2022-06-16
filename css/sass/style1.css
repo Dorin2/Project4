@@ -736,10 +736,18 @@ ul.services_ul li {
   padding-bottom: 5px;
 }
 
+.our-company_left h2 {
+  font-weight: 400;
+  font-size: 48px;
+  margin: 0px 0px 90px;
+}
+
 .our-company_right span {
   display: block;
   margin-bottom: 20px;
   text-align: center;
+  font-weight: 400;
+  font-size: 18;
 }
 
 .our-company_right img {
@@ -753,5 +761,39 @@ ul.services_ul li {
   height: 168px;
   border: 1px dashed #582D7F;
   border-radius: 10px;
+}
+
+.advantage-section_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.advantage-section_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.advantage-section_image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.advantage-section_description {
+  margin-left: 30px;
+}
+
+.advantage-section h2 {
+  margin: 120px 77px 70px 77px;
 }
 /*# sourceMappingURL=style1.css.map */
