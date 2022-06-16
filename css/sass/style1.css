@@ -716,6 +716,42 @@ ul.services_ul li {
 .our-company_image {
   background: url(/img/countries.png);
   background-repeat: no-repeat;
-  background-position: 95% 100px;
+  background-position: 85% 100px;
+}
+
+.our-company_right {
+  padding-top: 180px;
+}
+
+.our-company_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  padding-bottom: 5px;
+}
+
+.our-company_right span {
+  display: block;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.our-company_right img {
+  border-radius: 15px;
+}
+
+.our-company_experience {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 489px;
+  height: 168px;
+  border: 1px dashed #582D7F;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=style1.css.map */
