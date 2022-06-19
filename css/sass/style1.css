@@ -973,4 +973,60 @@ span.order-translation-number-active {
   display: block;
   background-color: #fff;
 }
+
+.slider {
+  height: 500px;
+  display: block;
+}
+
+.slider_title h2 {
+  font-weight: 400;
+  font-size: 48px;
+}
+
+.slider_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  height: 100%;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  padding: 70px 0px 115px 0px;
+}
+
+.slider_image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slider_image img {
+  padding-left: 20px;
+  border-radius: 20px;
+}
+
+button.slider_button1 {
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  cursor: pointer;
+  background-color: #ffffff00;
+  z-index: 1;
+}
+
+button.slider_button2 {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  cursor: pointer;
+  background-color: #ffffff00;
+  z-index: 1;
+}
 /*# sourceMappingURL=style1.css.map */
