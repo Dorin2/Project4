@@ -184,27 +184,55 @@ window.addEventListener('DOMContentLoaded',() => {
           sliderButtonNext = document.querySelector("button.slider_button2"),
           sliderImg = document.querySelectorAll(".slider_image img");
     var offsetNext = 187;
-    let offsetBack = 550;
-
-    // console.log(sliderImg);
+    var offsetBack = 550;
     
     sliderButtonNext.addEventListener('click',()=>{
         
         sliderImg.forEach(img => {
             img.style.transform = `translateX(-${offsetNext}px)`;
-        })
+        });
         offsetNext += 374;
-       if ( offsetNext > 561){
-        offsetNext = 187
+        
+       if ( offsetNext > 935) {
+        next();
        };
+       
+       console.log(offsetNext);
+       
     });
-    console.log(offsetNext);
+    function next(){
+        sliderImg.forEach(img => {
+            offsetNext = 187;
+            img.style.transform = `translateX(${offsetNext}px)`;
+        });
+    };
+    
+    
     sliderButtonBack.addEventListener('click',()=>{
+
         sliderImg.forEach(img => {
             img.style.transform = `translateX(${offsetBack}px)`;
-        })
+        });
+        offsetBack += 500;
+        
+        if ( offsetBack > 1050){
+            back();
+        };
+        if(offsetBack == 561){
+            offsetBack = 550;
+        }
+        console.log(offsetBack);
     });
+
+    function back(){
+        offsetBack = 561;
+        sliderImg.forEach(img => {
+            img.style.transform = `translateX(-${offsetBack}px)`;
+        });
     
+    };
+    
+   
 });
 function testFunction () {
     let name = document.getElementById("select-file").value;
