@@ -994,7 +994,6 @@ span.order-translation-number-active {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  overflow: hidden;
   padding: 70px 0px 115px 0px;
 }
 
@@ -1010,6 +1009,19 @@ span.order-translation-number-active {
 .slider_image img {
   padding-left: 20px;
   border-radius: 20px;
+  overflow: hidden;
+}
+
+img.slider_image4 {
+  display: none;
+}
+
+img.slider_image5 {
+  display: none;
+}
+
+img.slider_image6 {
+  display: none;
 }
 
 button.slider_button1 {
