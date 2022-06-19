@@ -1013,8 +1013,8 @@ span.order-translation-number-active {
   border-radius: 20px;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  -webkit-transform: translateX(175px);
-          transform: translateX(175px);
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
 }
 
 img.slide-active {

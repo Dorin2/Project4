@@ -183,54 +183,34 @@ window.addEventListener('DOMContentLoaded',() => {
     const sliderButtonBack = document.querySelector("button.slider_button1"),
           sliderButtonNext = document.querySelector("button.slider_button2"),
           sliderImg = document.querySelectorAll(".slider_image img");
-    var offsetNext = 187;
-    var offsetBack = 550;
+    let offset = 0;
     
     sliderButtonNext.addEventListener('click',()=>{
-        
+        offset += 370;
         sliderImg.forEach(img => {
-            img.style.transform = `translateX(-${offsetNext}px)`;
+            img.style.transform = `translateX(-${offset}px)`;
         });
-        offsetNext += 374;
         
-       if ( offsetNext > 935) {
-        next();
-       };
-       
-       console.log(offsetNext);
-       
-    });
-    function next(){
-        sliderImg.forEach(img => {
-            offsetNext = 187;
-            img.style.transform = `translateX(${offsetNext}px)`;
-        });
-    };
-    
-    
-    sliderButtonBack.addEventListener('click',()=>{
-
-        sliderImg.forEach(img => {
-            img.style.transform = `translateX(${offsetBack}px)`;
-        });
-        offsetBack += 500;
-        
-        if ( offsetBack > 1050){
-            back();
+        if(offset ==740){
+            translate();
         };
-        if(offsetBack == 561){
-            offsetBack = 550;
-        }
-        console.log(offsetBack);
     });
-
-    function back(){
-        offsetBack = 561;
+    sliderButtonBack.addEventListener('click',()=>{
+        offset += 370;
         sliderImg.forEach(img => {
-            img.style.transform = `translateX(-${offsetBack}px)`;
+            img.style.transform = `translateX(${offset}px)`;
         });
-    
-    };
+        if(offset ==740){
+            translate();
+        };
+    });
+// Butoon Function =============================================================================================================================================>
+function translate(){
+    offset = 0;
+    sliderImg.forEach(img => {
+        img.style.transform = `translateX(${offset}px)`;
+    });
+};
     
    
 });
