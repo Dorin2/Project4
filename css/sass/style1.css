@@ -1004,24 +1004,21 @@ span.order-translation-number-active {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 1120px;
+  overflow: hidden;
 }
 
 .slider_image img {
   padding-left: 20px;
   border-radius: 20px;
-  overflow: hidden;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transform: translateX(175px);
+          transform: translateX(175px);
 }
 
-img.slider_image4 {
-  display: none;
-}
-
-img.slider_image5 {
-  display: none;
-}
-
-img.slider_image6 {
-  display: none;
+img.slide-active {
+  display: block;
 }
 
 button.slider_button1 {

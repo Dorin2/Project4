@@ -15,16 +15,17 @@
         display: flex
         justify-content: center
         // transform: translateX(-200px)    
+        width: 1120px
+        overflow: hidden
     &_image img
         padding-left: 20px
         border-radius: 20px
-        overflow: hidden
-img.slider_image4
-    display: none
-img.slider_image5
-    display: none
-img.slider_image6
-    display: none   
+        transition: all 0.3s ease 0s
+        transform: translateX(175px) 
+img.slide-active
+    display: block
+img.slide-disable
+    // display: none
 button.slider_button1
     position: absolute
     left: 0px

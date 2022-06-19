@@ -180,8 +180,31 @@ window.addEventListener('DOMContentLoaded',() => {
         ".selectorClass"
     ).render();
 // Slider ====================================================================================================================================
+    const sliderButtonBack = document.querySelector("button.slider_button1"),
+          sliderButtonNext = document.querySelector("button.slider_button2"),
+          sliderImg = document.querySelectorAll(".slider_image img");
+    var offsetNext = 187;
+    let offsetBack = 550;
 
-
+    // console.log(sliderImg);
+    
+    sliderButtonNext.addEventListener('click',()=>{
+        
+        sliderImg.forEach(img => {
+            img.style.transform = `translateX(-${offsetNext}px)`;
+        })
+        offsetNext += 374;
+       if ( offsetNext > 561){
+        offsetNext = 187
+       };
+    });
+    console.log(offsetNext);
+    sliderButtonBack.addEventListener('click',()=>{
+        sliderImg.forEach(img => {
+            img.style.transform = `translateX(${offsetBack}px)`;
+        })
+    });
+    
 });
 function testFunction () {
     let name = document.getElementById("select-file").value;
