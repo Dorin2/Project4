@@ -1027,7 +1027,7 @@ img.slider_image6 {
 button.slider_button1 {
   position: absolute;
   left: 0px;
-  top: 50%;
+  top: 44%;
   cursor: pointer;
   background-color: #ffffff00;
   z-index: 1;
@@ -1036,7 +1036,7 @@ button.slider_button1 {
 button.slider_button2 {
   position: absolute;
   right: 0px;
-  top: 50%;
+  top: 44%;
   cursor: pointer;
   background-color: #ffffff00;
   z-index: 1;

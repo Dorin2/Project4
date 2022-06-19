@@ -1,12 +1,10 @@
 "use strict";
 window.addEventListener('DOMContentLoaded',() => {
-
+// Form submit ====================================================================================================================================
     const button1 = document.querySelector('.form_button-submit'),
           form1 = document.querySelector('.form-section1'),
           form2 = document.querySelector('.form-section2'),
           form3 = document.querySelector('.form-section3'),
-          number = document.querySelectorAll('.modal_number'),
-          steps = document.querySelectorAll('.modal_steps-span'),
           button3Back = document.querySelector('.form-section3_back'),
           button3Next = document.querySelector('.form-section3_next'), 
           button2Back = document.querySelector('.form-section2_back'),
@@ -181,6 +179,8 @@ window.addEventListener('DOMContentLoaded',() => {
         "founding documents",
         ".selectorClass"
     ).render();
+// Slider ====================================================================================================================================
+
 
 });
 function testFunction () {
