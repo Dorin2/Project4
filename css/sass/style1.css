@@ -977,6 +977,7 @@ span.order-translation-number-active {
 .slider {
   height: 500px;
   display: block;
+  margin-bottom: 300px;
 }
 
 .slider_title h2 {
