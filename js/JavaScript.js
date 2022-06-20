@@ -211,8 +211,7 @@ function translate(){
         img.style.transform = `translateX(${offset}px)`;
     });
 };
-    
-   
+// Slider ===============================================================================================================================================================>
 });
 function testFunction () {
     let name = document.getElementById("select-file").value;

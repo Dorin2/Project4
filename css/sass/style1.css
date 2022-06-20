@@ -1017,10 +1017,6 @@ span.order-translation-number-active {
           transform: translateX(0px);
 }
 
-img.slide-active {
-  display: block;
-}
-
 button.slider_button1 {
   position: absolute;
   left: 0px;
