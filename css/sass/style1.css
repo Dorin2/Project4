@@ -1071,20 +1071,30 @@ table, td {
   border-collapse: collapse;
   height: 60px;
   text-align: left;
+  border-radius: 20px;
 }
 
 th {
   height: 70px;
+  text-align: center;
+  font-weight: 400;
+}
+
+th.th1 {
+  text-align: left;
   padding-left: 50px;
 }
 
 td.td1 {
   text-align: left;
   padding-left: 50px;
+  font-weight: 300;
 }
 
 td {
   text-align: center;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 th.th1 {
