@@ -1040,6 +1040,7 @@ button.slider_button2 {
   height: 1020px;
   background-color: #fff;
   border-radius: 20px 20px 0px 0px;
+  margin-bottom: 110px;
 }
 
 .tarifs_section {
@@ -1059,6 +1060,7 @@ button.slider_button2 {
 .tarifs_section-all h2 {
   font-weight: 400;
   font-size: 48px;
+  padding-bottom: 50px;
 }
 
 .tarifs_table-section-table {
@@ -1115,5 +1117,20 @@ th.th4 {
 
 table {
   width: 100%;
+}
+
+.tarifs-button {
+  text-align: center;
+}
+
+button.tarifs-button {
+  margin-top: 100px;
+  width: 1286px;
+  height: 50px;
+  background-color: #582D7F;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style1.css.map */
