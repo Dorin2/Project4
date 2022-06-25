@@ -1,12 +1,14 @@
 .questions-answers
-    text-align: center
+    
     &_wallpaper
         width: 1286px
         height: 969px
         background-color: #fff 
+        padding-left: 70px
     &_wallpaper h2
         font-weight: 400
         font-size: 48px 
+        margin: 70px 0px
     &_section
         
     &_section span
@@ -15,5 +17,47 @@
         background-color: #E6E6E6
         display: block
     &_description 
-        display: flex
+        display: flex 
+        justify-content: space-between
+        padding-right: 20px  
+        
+    &_image
+        position: relative
+        width: 70px
+        height: 70px
+        margin: 20px 0px 
+    &_description-detailed 
+        margin: 20px 0px 
+    &_description-detailed p
+        font-weight: 600
+        font-size: 22px
+
+button.question-open
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    background-color: #ffffff00
+    cursor: pointer
+    transition: all 0.3s ease 0s
+    display: block
+button.question-open:hover
+    transform: translate(-50%, -50%) scale(1.1) 
+button.question-close
+    background-color: #ffffff00
+    position: absolute
+    top: 50%
+    left: 50%
+    cursor: pointer
+    transform: translate(-50%, -50%)
+    transition: all 0.3s ease 0s
+    display: none
+button.question-close:hover
+    transform: translate(-50%, -50%) scale(1.1) 
+p.question-answers_description-bottom
+    line-height: 30px
+    font-weight: 300
+    font-size: 18px
+    display: none
+
 
