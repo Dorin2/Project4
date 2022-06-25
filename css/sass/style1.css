@@ -1133,4 +1133,32 @@ button.tarifs-button {
   font-size: 16px;
   cursor: pointer;
 }
+
+.questions-answers {
+  text-align: center;
+}
+
+.questions-answers_wallpaper {
+  width: 1286px;
+  height: 969px;
+  background-color: #fff;
+}
+
+.questions-answers_wallpaper h2 {
+  font-weight: 400;
+  font-size: 48px;
+}
+
+.questions-answers_section span {
+  height: 1px;
+  width: 1160px;
+  background-color: #E6E6E6;
+  display: block;
+}
+
+.questions-answers_description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=style1.css.map */
