@@ -212,6 +212,10 @@ function translate(){
     });
 };
 // Slider ===============================================================================================================================================================>
+// Questions and answers ===============================================================================================================================================================>
+const QuestionOpen = document.querySelectorAll('button.question-open'),
+      Questionclose = document.querySelectorAll('button.question-close'),
+      QuestionAnswer = document.querySelector('.question-answers_description-bottom1');
 });
 function testFunction () {
     let name = document.getElementById("select-file").value;
