@@ -54,12 +54,17 @@ button.question-close
     display: none
 button.question-close:hover
     transform: translate(-50%, -50%) scale(1.1) 
-p.question-answers_description-bottom
+p.question-answers_description-bottom1
     line-height: 30px
     font-weight: 300
     font-size: 18px
+    transition: all 0.3s ease 0s
+    transform: translate(0px, -10px)
 p.description-disable
     display: none
+p.description-active
+    display: block
+    transform: translate(0px, 15px)
 button.question-active
     display: block
 button.question-disable

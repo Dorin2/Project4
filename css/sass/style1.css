@@ -1216,14 +1216,24 @@ button.question-close:hover {
           transform: translate(-50%, -50%) scale(1.1);
 }
 
-p.question-answers_description-bottom {
+p.question-answers_description-bottom1 {
   line-height: 30px;
   font-weight: 300;
   font-size: 18px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transform: translate(0px, -10px);
+          transform: translate(0px, -10px);
 }
 
 p.description-disable {
   display: none;
+}
+
+p.description-active {
+  display: block;
+  -webkit-transform: translate(0px, 15px);
+          transform: translate(0px, 15px);
 }
 
 button.question-active {

@@ -214,8 +214,50 @@ function translate(){
 // Slider ===============================================================================================================================================================>
 // Questions and answers ===============================================================================================================================================================>
 const QuestionOpen = document.querySelectorAll('button.question-open'),
-      Questionclose = document.querySelectorAll('button.question-close'),
+      QuestionClose = document.querySelectorAll('button.question-close'),
       QuestionAnswer = document.querySelector('.question-answers_description-bottom1');
+
+QuestionOpen.forEach((open1) => {
+    open1.addEventListener('click',(e)=>{
+        if (open1 === QuestionOpen[0]) {
+            open(QuestionOpen[0],QuestionClose[0]);
+            
+        };
+    })
+});
+QuestionClose.forEach((close1) => {
+    close1.addEventListener('click',(e)=>{
+        if (close1 === QuestionClose[0]) {
+            close(QuestionOpen[0],QuestionClose[0]);
+            
+        };
+    })
+});
+// QuestionOpen[0].addEventListener('click',()=>{
+//     open(QuestionOpen[0],QuestionClose[0]);
+// });
+// QuestionClose[0].addEventListener('click',()=>{
+//     close(QuestionOpen[0],QuestionClose[0]);
+// })
+function open(open,close){
+    open.classList.remove('question-active');
+    open.classList.add('question-disable');
+    close.classList.remove('question-disable');
+    close.classList.add('question-active');
+    QuestionAnswer.classList.remove('description-disable');
+    QuestionAnswer.classList.add('description-active');
+};
+function close(open,close){
+    close.classList.remove('question-active');
+    close.classList.add('question-disable');
+    open.classList.remove('question-disable');
+    open.classList.add('question-active');
+    QuestionAnswer.classList.add('description-disable');
+    QuestionAnswer.classList.remove('description-active');
+};
+    
+
+// Questions and answers ===============================================================================================================================================================>
 });
 function testFunction () {
     let name = document.getElementById("select-file").value;
