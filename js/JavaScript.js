@@ -215,21 +215,49 @@ function translate(){
 // Questions and answers ===============================================================================================================================================================>
 const QuestionOpen = document.querySelectorAll('button.question-open'),
       QuestionClose = document.querySelectorAll('button.question-close'),
-      QuestionAnswer = document.querySelector('.question-answers_description-bottom1');
+      QuestionAnswer = document.querySelectorAll('.question-answers_description-bottom1');
 
 QuestionOpen.forEach((open1) => {
     open1.addEventListener('click',(e)=>{
         if (open1 === QuestionOpen[0]) {
-            open(QuestionOpen[0],QuestionClose[0]);
-            
+            open(QuestionOpen[0],QuestionClose[0],QuestionAnswer[0]);  
+        };
+        if (open1 === QuestionOpen[1]) {
+            open(QuestionOpen[1],QuestionClose[1],QuestionAnswer[1]);  
+        };
+        if (open1 === QuestionOpen[2]) {
+            open(QuestionOpen[2],QuestionClose[2],QuestionAnswer[2]);  
+        };
+        if (open1 === QuestionOpen[3]) {
+            open(QuestionOpen[3],QuestionClose[3],QuestionAnswer[3]);  
+        };
+        if (open1 === QuestionOpen[4]) {
+            open(QuestionOpen[4],QuestionClose[4],QuestionAnswer[4]);  
+        };
+        if (open1 === QuestionOpen[5]) {
+            open(QuestionOpen[5],QuestionClose[5],QuestionAnswer[5]);  
         };
     })
 });
 QuestionClose.forEach((close1) => {
     close1.addEventListener('click',(e)=>{
         if (close1 === QuestionClose[0]) {
-            close(QuestionOpen[0],QuestionClose[0]);
-            
+            close(QuestionOpen[0],QuestionClose[0],QuestionAnswer[0]);
+        };
+        if (close1 === QuestionClose[1]) {
+            close(QuestionOpen[1],QuestionClose[1],QuestionAnswer[1]);  
+        };
+        if (close1 === QuestionClose[2]) {
+            close(QuestionOpen[2],QuestionClose[2],QuestionAnswer[2]);  
+        };
+        if (close1 === QuestionClose[3]) {
+            close(QuestionOpen[3],QuestionClose[3],QuestionAnswer[3]);  
+        };
+        if (close1 === QuestionClose[4]) {
+            close(QuestionOpen[4],QuestionClose[4],QuestionAnswer[4]);  
+        };
+        if (close1 === QuestionClose[5]) {
+            close(QuestionOpen[5],QuestionClose[5],QuestionAnswer[5]);  
         };
     })
 });
@@ -239,21 +267,21 @@ QuestionClose.forEach((close1) => {
 // QuestionClose[0].addEventListener('click',()=>{
 //     close(QuestionOpen[0],QuestionClose[0]);
 // })
-function open(open,close){
+function open(open,close,answer){
     open.classList.remove('question-active');
     open.classList.add('question-disable');
     close.classList.remove('question-disable');
     close.classList.add('question-active');
-    QuestionAnswer.classList.remove('description-disable');
-    QuestionAnswer.classList.add('description-active');
+    answer.classList.remove('description-disable');
+    answer.classList.add('description-active');
 };
-function close(open,close){
+function close(open,close,answer){
     close.classList.remove('question-active');
     close.classList.add('question-disable');
     open.classList.remove('question-disable');
     open.classList.add('question-active');
-    QuestionAnswer.classList.add('description-disable');
-    QuestionAnswer.classList.remove('description-active');
+    answer.classList.add('description-disable');
+    answer.classList.remove('description-active');
 };
     
 
