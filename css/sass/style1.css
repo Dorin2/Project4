@@ -1242,4 +1242,9 @@ button.question-active {
 button.question-disable {
   display: none;
 }
+
+.flags {
+  height: 200px;
+  margin: 50px 0px;
+}
 /*# sourceMappingURL=style1.css.map */
