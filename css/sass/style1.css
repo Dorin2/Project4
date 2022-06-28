@@ -1160,7 +1160,7 @@ button.tarifs-button {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-right: 20px;
+  padding-right: 40px;
 }
 
 .questions-answers_image {
@@ -1239,12 +1239,15 @@ button.question-active {
   display: block;
 }
 
-button.question-disable {
-  display: none;
+.question-padding {
+  margin-bottom: 60px;
 }
 
 .flags {
   height: 200px;
   margin: 50px 0px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=style1.css.map */
