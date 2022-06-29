@@ -215,7 +215,28 @@ function translate(){
 // Questions and answers ===============================================================================================================================================================>
 const QuestionOpen = document.querySelectorAll('button.question-open'),
       QuestionClose = document.querySelectorAll('button.question-close'),
-      QuestionAnswer = document.querySelectorAll('.question-answers_description-bottom1');
+      QuestionAnswer = document.querySelectorAll('.question-answers_description-bottom1'),
+      QuestionP = document.querySelectorAll('.questions-answers_description-detailed p strong');
+
+QuestionP.forEach((p)=>{
+    p.addEventListener('click',(e)=>{
+        if(p === QuestionP[0]){
+            QuestionAnswer[0].classList.toggle('description-active');
+        };
+        if (p === QuestionP[1]) {
+            QuestionAnswer[1].classList.toggle('description-active');
+        }
+         else if(p === QuestionP[2]){
+            QuestionAnswer[2].classList.toggle('description-active');
+        }else if(p === QuestionP[3]){
+            QuestionAnswer[3].classList.toggle('description-active');
+        }else if(p === QuestionP[4]){
+            QuestionAnswer[4].classList.toggle('description-active');
+        }else if(p === QuestionP[5]){
+            QuestionAnswer[5].classList.toggle('description-active');
+        }
+    })
+})
 
 QuestionOpen.forEach((open1) => {
     open1.addEventListener('click',(e)=>{

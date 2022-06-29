@@ -1177,6 +1177,7 @@ button.tarifs-button {
 .questions-answers_description-detailed p {
   font-weight: 600;
   font-size: 22px;
+  cursor: pointer;
 }
 
 button.question-open {
