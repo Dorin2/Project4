@@ -222,18 +222,36 @@ QuestionP.forEach((p)=>{
     p.addEventListener('click',(e)=>{
         if(p === QuestionP[0]){
             QuestionAnswer[0].classList.toggle('description-active');
+            QuestionAnswer[0].classList.toggle('description-disable');
+            QuestionOpen[0].classList.toggle('question-disable');
+            QuestionClose[0].classList.toggle('question-active');
         };
         if (p === QuestionP[1]) {
             QuestionAnswer[1].classList.toggle('description-active');
+            QuestionAnswer[1].classList.toggle('description-disable');
+            QuestionOpen[1].classList.toggle('question-disable');
+            QuestionClose[1].classList.toggle('question-active');
         }
          else if(p === QuestionP[2]){
             QuestionAnswer[2].classList.toggle('description-active');
+            QuestionAnswer[2].classList.toggle('description-disable');
+            QuestionOpen[2].classList.toggle('question-disable');
+            QuestionClose[2].classList.toggle('question-active');
         }else if(p === QuestionP[3]){
             QuestionAnswer[3].classList.toggle('description-active');
+            QuestionAnswer[3].classList.toggle('description-disable');
+            QuestionOpen[3].classList.toggle('question-disable');
+            QuestionClose[3].classList.toggle('question-active');
         }else if(p === QuestionP[4]){
             QuestionAnswer[4].classList.toggle('description-active');
+            QuestionAnswer[4].classList.toggle('description-disable');
+            QuestionOpen[4].classList.toggle('question-disable');
+            QuestionClose[4].classList.toggle('question-active');
         }else if(p === QuestionP[5]){
             QuestionAnswer[5].classList.toggle('description-active');
+            QuestionAnswer[5].classList.toggle('description-disable');
+            QuestionOpen[5].classList.toggle('question-disable');
+            QuestionClose[5].classList.toggle('question-active');
         }
     })
 })

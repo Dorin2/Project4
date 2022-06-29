@@ -19,6 +19,7 @@
         display: flex 
         justify-content: space-between
         padding-right: 40px  
+        transition: all 0.5s ease 0s
         
     &_image
         position: relative
@@ -61,10 +62,13 @@ p.question-answers_description-bottom1
     transition: all 0.3s ease 0s
     transform: translate(0px, -10px)
 p.description-disable
-    display: none
+    opacity: 0
+    // display: none
+    max-height: 0
 p.description-active
-    display: block
+    // display: block
     transform: translate(0px, 15px)
+    opacity: 1
 button.question-active
     display: block
 button.question-disable
