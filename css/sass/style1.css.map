@@ -16,7 +16,8 @@
         "_table.sass",
         "_question.sass",
         "_flags.sass",
-        "_costCalculation.sass"
+        "_costCalculation.sass",
+        "_footer.sass"
     ],
     "names": [],
     "file": "style1.css"
