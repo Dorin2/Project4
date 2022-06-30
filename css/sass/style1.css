@@ -1138,6 +1138,8 @@ button.tarifs-button {
   width: 1286px;
   background-color: #fff;
   padding-left: 70px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .questions-answers_wallpaper h2 {
@@ -1325,6 +1327,10 @@ button.question-active {
   cursor: pointer;
 }
 
+.column1_buttons button:hover {
+  text-decoration: underline;
+}
+
 .column1_buttons button img {
   margin-right: 15px;
 }
@@ -1343,5 +1349,49 @@ button.question-active {
   font-weight: 700;
   font-size: 20px;
   text-transform: uppercase;
+}
+
+.column ul li a {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+.column ul li:hover {
+  text-decoration: underline;
+}
+
+.column4_tel {
+  margin: 20px 0px;
+}
+
+.column4_tel a {
+  font-weight: 600;
+  font-size: 18px;
+  color: #582D7F;
+}
+
+.column4_tel a:hover {
+  text-decoration: underline;
+}
+
+.column4_email {
+  margin: 20px 0px;
+}
+
+.column4_email a {
+  font-weight: 500;
+  font-size: 18px;
+  color: #686868;
+}
+
+.column4_email a:hover {
+  text-decoration: underline;
+}
+
+.column4_adress strong {
+  color: #582D7F;
+  margin: 0px 10px 0px 0px;
 }
 /*# sourceMappingURL=style1.css.map */
