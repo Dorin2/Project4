@@ -1262,12 +1262,43 @@ button.question-active {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 100px;
+  background-color: #fff;
 }
 
 .cost-calculation_section {
   width: 1286px;
   height: 750px;
-  background-color: #fff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0px 63px;
+}
+
+.cost-calculation_section h2 {
+  font-weight: 400;
+  font-size: 48px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+span.cost-calculation-line {
+  height: 1px;
+  background-color: #C4C4C4;
+  width: 610px;
+}
+
+.calculation-description {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 30px 0px;
+}
+
+.calculation-steps {
+  margin: 0;
+}
+
+.cost {
+  width: 37px;
 }
 
 .footer-background {
