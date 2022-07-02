@@ -1329,6 +1329,16 @@ select.cost-select {
   margin: 0px 20px;
 }
 
+.cost-calculation_description textarea {
+  width: 1160px;
+  height: 150px;
+  border-style: dashed;
+  resize: none;
+  padding: 15px;
+  font-weight: 300;
+  font-size: 20px;
+}
+
 .footer-background {
   background-color: #fff;
 }
