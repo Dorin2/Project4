@@ -1358,6 +1358,13 @@ button.cost-calculation_next {
   font-size: 16px;
   color: #fff;
   cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+button.cost-calculation_next:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .footer-background {
