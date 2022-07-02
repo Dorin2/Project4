@@ -1262,12 +1262,109 @@ button.question-active {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 100px;
+  background-color: #fff;
 }
 
 .cost-calculation_section {
   width: 1286px;
   height: 750px;
-  background-color: #fff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0px 63px;
+}
+
+.cost-calculation_section h2 {
+  font-weight: 400;
+  font-size: 48px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.cost-calculation_language span {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.cost-calculation_select {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cost-calculation_language {
+  padding: 20px 0px;
+}
+
+.cost-calculation_buttons {
+  height: 80px;
+  position: relative;
+}
+
+span.cost-calculation-line {
+  height: 1px;
+  background-color: #C4C4C4;
+  width: 610px;
+}
+
+.calculation-description {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 30px 0px;
+}
+
+.calculation-steps {
+  margin: 0;
+}
+
+.cost {
+  width: 37px;
+}
+
+select.cost-select {
+  border: 1px #000 solid;
+  border-radius: 0px;
+}
+
+.cost-arrow img {
+  margin: 0px 20px;
+}
+
+.cost-calculation_description textarea {
+  width: 100%;
+  height: 150px;
+  border-style: dashed;
+  resize: none;
+  padding: 15px;
+  font-weight: 300;
+  font-size: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+button.cost-calculation_next {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  height: 55px;
+  width: 160px;
+  border: none;
+  background-color: #093B54;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+button.cost-calculation_next:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .footer-background {

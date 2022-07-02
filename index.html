@@ -689,9 +689,61 @@
 <div class="cost-calculation container">
     <div class="cost-calculation_section">
         <h2>Cost calculation</h2>
-        <div class="const-calculation_steps"></div>
-        <div class="const-calculation_language"></div>
-        <div class="cost-calculation_description"></div>
+        <div class="const-calculation_steps steps">
+            <div class="steps_section">
+                <!-- <div class="steps_line">
+                    <p class="steps_line1 line-disable"></p>
+                    <p class="steps_line2 line-disable"></p>
+                </div> -->
+                <div class="modal_operations calculation-steps">
+                    <div class="number1 cost modal_number number-active"><span>1</span></div>
+                    <span class="cost-calculation-line"></span>
+                    <div class="number2 cost modal_number number-disable"><span>2</span></div>
+                    <span class="cost-calculation-line"></span>
+                    <div class="number3 cost modal_number number-disable"><span>3</span></div>
+                </div>
+                <div class="modal_steps-description calculation-description">
+                    <span class="step1 modal_steps-span steps-active">Translation direction</span>
+                    <span class="step2 modal_steps-span steps-disable" >Text and timing</span>
+                    <span class="step3 modal_steps-span steps-disable">Contact details</span>
+                </div>
+            </div>
+        </div>
+        <form>
+        <div class="cost-calculation_language">
+            <span>1.Select the translation direction</span>
+            <div class="cost-calculation_select">
+                <select class="form_translate cost-select" name="user_profile_color_2" required="required">
+                    <option value="">Translation from</option>
+                    <option value="1">Romanian</option>
+                    <option value="2">English</option>
+                    <option value="3">German</option>
+                    <option value="4">French</option>
+                    <option value="5">Italian</option>
+                </select>
+                <div class="form_arrow cost-arrow">
+                    <img src="/img/arrow-logo.svg" alt="arrow">
+                </div>
+                <select class="form_translate cost-select" name="user_profile_color_2" required="required">
+                    <option value="">Translation to</option>
+                    <option value="1">Romanian</option>
+                    <option value="2">English</option>
+                    <option value="3">German</option>
+                    <option value="4">French</option>
+                    <option value="5">Italian</option>
+                </select>
+            </div>
+        </div>
+        <div class="cost-calculation_description">
+            <textarea name="comment" id="calculation-comment" placeholder ="We translate from more than 70 languages of the world. 
+If suddenly the language you need is not on the list, please contact us by phone: +40 740 618 928
+
+We will definitely help you!" cols="30" rows="10"></textarea>
+        </div>
+        <div class="cost-calculation_buttons">
+            <button class="cost-calculation_next">Next</button>
+        </div>
+        </form>
     </div>
 </div>
 <!-- Cost Calculation ==================================================================================================================================== -->
