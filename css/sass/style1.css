@@ -1367,6 +1367,10 @@ button.cost-calculation_next:hover {
           transform: scale(1.1);
 }
 
+.form-calculation1 {
+  display: none;
+}
+
 .footer-background {
   background-color: #fff;
 }
@@ -1490,5 +1494,28 @@ button.cost-calculation_next:hover {
 .column4_adress strong {
   color: #582D7F;
   margin: 0px 10px 0px 0px;
+}
+
+.form-calculation2_input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form-calculation2_chose-file {
+  border: 1px solid #000;
+  border-style: dashed;
+  border-radius: 10px;
+  width: 560px;
+  height: 219px;
+  text-align: center;
+}
+
+.form-calculation2_chose-file p {
+  font-weight: 400;
+  font-size: 20px;
 }
 /*# sourceMappingURL=style1.css.map */
