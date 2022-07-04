@@ -1518,4 +1518,10 @@ button.cost-calculation_next:hover {
   font-weight: 400;
   font-size: 20px;
 }
+
+.form-calculation2_task textarea {
+  width: 570px;
+  height: 219px;
+  resize: none;
+}
 /*# sourceMappingURL=style1.css.map */
