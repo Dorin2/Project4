@@ -691,10 +691,6 @@
         <h2>Cost calculation</h2>
         <div class="const-calculation_steps steps">
             <div class="steps_section">
-                <!-- <div class="steps_line">
-                    <p class="steps_line1 line-disable"></p>
-                    <p class="steps_line2 line-disable"></p>
-                </div> -->
                 <div class="modal_operations calculation-steps">
                     <div class="number1 cost modal_number number-active"><span>1</span></div>
                     <span class="cost-calculation-line"></span>
@@ -709,49 +705,69 @@
                 </div>
             </div>
         </div>
-        <form>
-        <div class="cost-calculation_language">
-            <span>1.Select the translation direction</span>
-            <div class="cost-calculation_select">
-                <select class="form_translate cost-select" name="user_profile_color_2" required="required">
-                    <option value="">Translation from</option>
-                    <option value="1">Romanian</option>
-                    <option value="2">English</option>
-                    <option value="3">German</option>
-                    <option value="4">French</option>
-                    <option value="5">Italian</option>
-                </select>
-                <div class="form_arrow cost-arrow">
-                    <img src="/img/arrow-logo.svg" alt="arrow">
+        <div class="form-calculation-container">
+            <div class="form-calculation1">
+                <div class="cost-calculation_language">
+                    <span>1.Select the translation direction</span>
+                    <div class="cost-calculation_select">
+                        <select class="form_translate cost-select" name="user_profile_color_2" required="required">
+                            <option value="">Translation from</option>
+                            <option value="1">Romanian</option>
+                            <option value="2">English</option>
+                            <option value="3">German</option>
+                            <option value="4">French</option>
+                            <option value="5">Italian</option>
+                        </select>
+                        <div class="form_arrow cost-arrow">
+                            <img src="/img/arrow-logo.svg" alt="arrow">
+                        </div>
+                        <select class="form_translate cost-select" name="user_profile_color_2" required="required">
+                            <option value="">Translation to</option>
+                            <option value="1">Romanian</option>
+                            <option value="2">English</option>
+                            <option value="3">German</option>
+                            <option value="4">French</option>
+                            <option value="5">Italian</option>
+                        </select>
+                    </div>
                 </div>
-                <select class="form_translate cost-select" name="user_profile_color_2" required="required">
-                    <option value="">Translation to</option>
-                    <option value="1">Romanian</option>
-                    <option value="2">English</option>
-                    <option value="3">German</option>
-                    <option value="4">French</option>
-                    <option value="5">Italian</option>
-                </select>
-            </div>
-        </div>
-        <div class="cost-calculation_description">
-            <textarea name="comment" id="calculation-comment" placeholder ="We translate from more than 70 languages of the world. 
+                <div class="cost-calculation_description">
+                <textarea name="comment" id="calculation-comment" placeholder ="We translate from more than 70 languages of the world. 
 If suddenly the language you need is not on the list, please contact us by phone: +40 740 618 928
 
 We will definitely help you!" cols="30" rows="10"></textarea>
-        </div>
-        <div class="cost-calculation_buttons">
-            <button class="cost-calculation_next">Next</button>
-        </div>
-        </form>
-    </div>
+                </div>
+                <div class="cost-calculation_buttons">
+                    <button class="cost-calculation_next">Next</button>
+                </div>
+                </div>
+            </div><!--form-calculation1-->
+            <div class="form-calculation2">
+                <div class="cost-calculation_language">
+                    <span>2.Upload a file or enter a task in the text field</span>
+                    <div class="form-calculation2_input">
+                        <div class="form-calculation2_chose-file">
+                            <p>Drag files here <br>or</p>
+                            <input type="file" id="doc" name="doc">
+                        </div>
+                        <div class="form-calculation2_task">
+                            <textarea name="task" id="task" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cost-calculation_buttons">
+                    <button class="cost-calculation_next">Next</button>
+                </div>
+            </div>
+        </div><!--form-calculation1-container-->
 </div>
 <!-- Cost Calculation ==================================================================================================================================== -->
 <!-- Footer ==================================================================================================================================== -->
 <div class="footer-background">
     <div class="footer container">
         <div class="column1">
-            <div class="column1_logo"><img src="/img/logo1.svg" alt="logo"></div>
+            <div class="column1_logo"><img src="/img/logo1.svg" alt="logo" width="99" height="61"></div>
             <div class="column1_logo-description"><span>Translation agency <br>Universal in Bucharest</span></div>
             <div class="column1_contact"><span>Contact us:</span></div>
             <div class="column1_buttons">
