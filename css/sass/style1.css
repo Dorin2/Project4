@@ -1360,6 +1360,7 @@ button.cost-calculation_next {
   cursor: pointer;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  border-radius: 5px;
 }
 
 button.cost-calculation_next:hover {
@@ -1503,6 +1504,7 @@ button.cost-calculation_next:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-top: 50px;
 }
 
 .form-calculation2_chose-file {
@@ -1523,5 +1525,50 @@ button.cost-calculation_next:hover {
   width: 570px;
   height: 219px;
   resize: none;
+}
+
+button.cost-calculation_back {
+  position: absolute;
+  left: 0;
+  top: 30px;
+  height: 55px;
+  width: 160px;
+  border: none;
+  background-color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  color: #093B54;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  border: 1px solid  #093B54;
+  border-radius: 5px;
+}
+
+button.cost-calculation_back:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+button.cost-calculation_next1 {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  height: 55px;
+  width: 160px;
+  border: none;
+  background-color: #093B54;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  border-radius: 5px;
+}
+
+button.cost-calculation_next1:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 /*# sourceMappingURL=style1.css.map */
