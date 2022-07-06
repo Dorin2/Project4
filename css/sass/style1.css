@@ -1497,6 +1497,10 @@ button.cost-calculation_next:hover {
   margin: 0px 10px 0px 0px;
 }
 
+.form-calculation2 {
+  display: none;
+}
+
 .form-calculation2_input {
   display: -webkit-box;
   display: -ms-flexbox;
