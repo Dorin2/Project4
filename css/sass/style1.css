@@ -1575,4 +1575,9 @@ button.cost-calculation_next1:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
+
+.form-calculation3_input {
+  text-align: center;
+  margin-top: 45px;
+}
 /*# sourceMappingURL=style1.css.map */
