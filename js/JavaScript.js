@@ -314,14 +314,14 @@ function open(open,close,answer){
     answer.classList.remove('description-disable');
     answer.classList.add('description-active');
 };
-function close(open,close,answer){
-    close.classList.remove('question-active');
-    close.classList.add('question-disable');
-    open.classList.remove('question-disable');
-    open.classList.add('question-active');
-    answer.classList.add('description-disable');
-    answer.classList.remove('description-active');
-};
+// function close(open,close,answer){
+//     close.classList.remove('question-active');
+//     close.classList.add('question-disable');
+//     open.classList.remove('question-disable');
+//     open.classList.add('question-active');
+//     answer.classList.add('description-disable');
+//     answer.classList.remove('description-active');
+// };
     
 
 // Questions and answers ===============================================================================================================================================================>
