@@ -1091,6 +1091,14 @@ button.cost-calculation_next:hover {
   display: none;
 }
 
+.cost-active {
+  display: block;
+}
+
+.cost-disable {
+  display: none;
+}
+
 .footer-background {
   background-color: #fff;
 }
