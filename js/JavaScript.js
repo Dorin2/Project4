@@ -325,9 +325,43 @@ function close(open,close,answer){
     
 
 // Questions and answers ===============================================================================================================================================================>
+// Modal request ===============================================================================================================================================================>
+
+const modal1 = document.querySelector('.modal1'),
+      modal1Button = document.querySelector('button.request-call'),
+      modal1Close = document.querySelector('button.modal1-button');
+      
+const openModal = function(){
+    modal1.classList.add('modal1show');
+    modal1.classList.remove('modal1hide');
+    document.body.style.overflow = 'hidden';
+};
+
+const closeModal = function(){
+    modal1.classList.add('modal1hide');
+    modal1.classList.remove('modal1show');
+    document.body.style.overflow = '';
+}
+modal1Button.addEventListener('click',()=>{
+  openModal();  
+})
+
+modal1Close.addEventListener('click',()=>{
+    closeModal();
+});
+
+modal1.addEventListener('click',(e)=>{
+    if(e.target === modal1){
+        closeModal();
+    }
+});
+// Modal request ===============================================================================================================================================================>
+
 // Cost calculation ===============================================================================================================================================================>
 
 });
+
+
 function testFunction () {
     let name = document.getElementById("select-file").value;
     const span = document.getElementById("display-image");
@@ -337,5 +371,6 @@ function testFunction () {
     } else {
         span.innerHTML = 'Upload<br> file';
     };
+
 
   };
