@@ -329,7 +329,8 @@ function close(open,close,answer){
 
 const modal1 = document.querySelector('.modal1'),
       modal1Button = document.querySelector('button.request-call'),
-      modal1Close = document.querySelector('button.modal1-button');
+      modal1Close = document.querySelector('button.modal1-button'),
+      leaveRequest = document.querySelectorAll('a.services_leave-request');
       
 const openModal = function(){
     modal1.classList.add('modal1show');
@@ -342,6 +343,7 @@ const closeModal = function(){
     modal1.classList.remove('modal1show');
     document.body.style.overflow = '';
 }
+
 modal1Button.addEventListener('click',()=>{
   openModal();  
 })
@@ -355,8 +357,30 @@ modal1.addEventListener('click',(e)=>{
         closeModal();
     }
 });
-// Modal request ===============================================================================================================================================================>
 
+leaveRequest.forEach((a)=>{
+    a.addEventListener('click',()=>{
+        openModal(); 
+    });
+});
+
+// Modal request ===============================================================================================================================================================>
+// Smooth scroll ===============================================================================================================================================================>
+
+const anchors = document.querySelectorAll('a.menu_link')
+
+for(let anchor of anchors) {
+  anchor.addEventListener("click", function(e) {
+    e.preventDefault() // Предотвратить стандартное поведение ссылок
+    // Атрибут href у ссылки, если его нет то перейти к body (наверх не плавно)
+    const goto = anchor.hasAttribute('href') ? anchor.getAttribute('href') : 'body'
+    // Плавная прокрутка до элемента с id = href у ссылки
+    document.querySelector(goto).scrollIntoView({
+      behavior: "smooth",
+      block: "start"
+    })
+  })
+}
 // Cost calculation ===============================================================================================================================================================>
 
 });

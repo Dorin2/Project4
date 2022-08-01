@@ -1290,7 +1290,6 @@ button.cost-calculation_next1:hover {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
-  overflow: hidden;
   z-index: 10;
   top: 0;
   left: 0;
