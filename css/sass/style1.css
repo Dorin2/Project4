@@ -15,7 +15,7 @@ a {
 }
 
 body {
-  background-image: url("/img/background.png");
+  background-image: url("./img/background.png");
   font-family: "Montserrat", "Sans-serif";
   font-style: normal;
   font-weight: 500;
@@ -114,7 +114,7 @@ ul.menu li:hover {
 }
 
 .wallpaper {
-  background: url(/img/wallpaper.png);
+  background: url(./img/wallpaper.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 720px;
