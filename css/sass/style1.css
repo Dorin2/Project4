@@ -15,7 +15,7 @@ a {
 }
 
 body {
-  background-image: url("./img/background.png");
+  background-image: url("../../img/background.png");
   font-family: "Montserrat", "Sans-serif";
   font-style: normal;
   font-weight: 500;
@@ -114,7 +114,7 @@ ul.menu li:hover {
 }
 
 .wallpaper {
-  background: url(./img/wallpaper.png);
+  background: url(../../img/wallpaper.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 720px;
@@ -578,7 +578,7 @@ ul.services_ul li {
   border-radius: 30px 0px;
 }
 .our-company_image {
-  background: url(./img/countries.png);
+  background: url("../../img/countries.png");
   background-repeat: no-repeat;
   background-position: 85% 100px;
 }
@@ -651,7 +651,7 @@ ul.services_ul li {
   width: 1286px;
   height: 616px;
   border-radius: 10px;
-  background: url(./img/order-translation.png);
+  background-image: url("../../img/order-translation.png");
   margin: auto;
   display: flex;
   flex-direction: column;
